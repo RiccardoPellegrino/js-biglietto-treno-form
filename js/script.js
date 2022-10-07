@@ -33,7 +33,7 @@ bottone.addEventListener("click", function () {
         scontoBiglietto = scontoBiglietto.toFixed(2);
         document.getElementById("prezzo").innerHTML = scontoBiglietto + ' &euro;';
 
-    } else if (eta > 65) {
+    } else if (eta >= 65) {
         scontoBiglietto = (prezzoBiglietto *60) /100;
         console.log(scontoBiglietto);
         scontoBiglietto = scontoBiglietto.toFixed(2);
