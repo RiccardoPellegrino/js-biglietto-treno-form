@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(77, 95, 95);
+    color: white;
+    
+}
+label{
+    font-size: 30px;
+}
+#ceck{
+    color: blue;
+}
+#contenitore{
+    background-color: brown;
+}
+
+span {
+    color: black;
+}

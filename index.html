@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>Biglietti del treno </title>
 </head>
 
 <body>
+
+    <header class="mt-5 text-center">
+        <div id="contenitore" class="container-fluid rounded-5">
+            <div class="container text-center rounded-5 bg-light">
+                <span class="fs-1">Trenitalia</span>
+            </div>
+            <form>
+                <label class="mt-4 mb-4" for="">Inserisci i Kilometri che vuoi percorrere</label><br>
+                <input type="number" id="klm" value="" placeholder="0"> <br>
+                <label class="mt-4 mb-4" for=""> Inserisci la tua età</label><br>
+                <input type="number" id="eta" value="" placeholder="0"><br><br>
+                <input type="button" id="calcola" value="Calcola il prezzo del tuo biglietto"><br>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <h1 class="mt-5 text-center">Il prezzo del tuo biglietto è:</h1>
+            <p class="text-center fs-1" id="prezzo"></p>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
 
 </body>
 
